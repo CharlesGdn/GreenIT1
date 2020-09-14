@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Greent IT</title>
+        <link rel="stylesheet" href="app.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Green IT : TD3 recherche d'élèves</h1>
+        </header>
+        <div class="container">
+            <div id="searchWrapper">
+                <input
+                    type="text"
+                    name="searchBarName"
+                    id="searchBarName"
+                />
+                <select id="comboCourse">
+                    <option>Tous</option>
+                    <option>IR3</option>
+                    <option>IR4</option>
+                    <option>SEP3</option>
+                    <option>SEP4</option>
+                </select>
+            </div>
+            <ul id="studentList"></ul>
+        </div>
+        <script src="data.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
